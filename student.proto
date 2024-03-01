@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message message {
+  int32 roll_number = 1;
+  string name = 2;
+  string father_name = 3;
+  string password = 4;
+  bool IsApproved = 5;
+}
+
+message bulk{
+  repeated message students =1;
+}
